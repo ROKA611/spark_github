@@ -14,8 +14,8 @@ def get_city_coordinates():
     """Find the GPS coordinates for Charlottesville,
     and fill in the information below
     """
-    lattitude = ???
-    longitude = ???
+    lattitude = 38.037658
+    longitude = -78.485381
 
     return lattitude, longitude
 
@@ -28,7 +28,7 @@ def get_icon_size():
     you want to appear on the site at a time! Because of how the instagram API works,
     it won't return more than 20 photos at once.
     """
-    size = ???
+    size = 200
     return size
 
 
@@ -40,6 +40,7 @@ def choose_number_of_tweets():
     """ Modify this function to return the max number of tweets
     you want to appear on the site at a time!
     """
+    number = 20
     return number
 
 
@@ -50,4 +51,5 @@ def choose_number_of_tweets():
 def choose_hashtag():
     """ Modify this function to use return the hashtah #sparkhackathon
     """
+    hashtag = "sparkhackathon"
     return hashtag
